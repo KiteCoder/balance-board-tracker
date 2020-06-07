@@ -12,6 +12,9 @@ function App() {
       setSupported(false);
     }
     const handleMotionEvent = event => {
+
+      console.log(event);
+
       requestAnimationFrame(() =>
         setMotion({
           xAcceleration: -event.accelerationIncludingGravity.x * 5,
