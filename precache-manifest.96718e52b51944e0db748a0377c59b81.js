@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a0d426aa07d488e80e0541a594fd6af",
+    "revision": "ba193ff05734d08489ea4210d3b97859",
     "url": "/balance-board-tracker/index.html"
   },
   {
-    "revision": "a148afbe639c26c7bee4",
+    "revision": "28d39652307e4c93b8e8",
     "url": "/balance-board-tracker/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "52787c268cf92de502a1",
-    "url": "/balance-board-tracker/static/js/2.4283fe58.chunk.js"
+    "revision": "e2daa014e595faebd17d",
+    "url": "/balance-board-tracker/static/js/2.b875483c.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/balance-board-tracker/static/js/2.4283fe58.chunk.js.LICENSE.txt"
+    "url": "/balance-board-tracker/static/js/2.b875483c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a148afbe639c26c7bee4",
-    "url": "/balance-board-tracker/static/js/main.ed886b32.chunk.js"
+    "revision": "28d39652307e4c93b8e8",
+    "url": "/balance-board-tracker/static/js/main.ecebee1f.chunk.js"
   },
   {
     "revision": "08eb21dc83ff7c8c256e",
