@@ -1,24 +1,39 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const [{ xAcceleration, yAcceleration }, setMotion] = useState({ x: 0, y: 0 });
+  const [supported, setSupported] = useState(true);
+
+  useEffect(() => {
+    if (!window.DeviceMotionEvent) {
+      setSupported(false);
+    }
+    const handleMotionEvent = event => {
+      requestAnimationFrame(() =>
+        setMotion({
+          xAcceleration: -event.accelerationIncludingGravity.x * 5,
+          yAcceleration: event.accelerationIncludingGravity.y * 5,
+        }),
+      );
+    };
+
+    window.addEventListener('devicemotion', handleMotionEvent, true);
+
+    return () => window.removeEventListener('devicemotion', handleMotionEvent);
+  }, []);
+
+  if (!supported) {
+    return <p>Not supported</p>;
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>X Accelleration: {xAcceleration}</p>
+      <p>Y Accelleration: {yAcceleration}</p>
     </div>
   );
 }
