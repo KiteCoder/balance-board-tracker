@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/balance-board-tracker/static/css/main.5f361e03.chunk.css",
-    "main.js": "/balance-board-tracker/static/js/main.2bd6fdad.chunk.js",
-    "main.js.map": "/balance-board-tracker/static/js/main.2bd6fdad.chunk.js.map",
+    "main.js": "/balance-board-tracker/static/js/main.7d9db694.chunk.js",
+    "main.js.map": "/balance-board-tracker/static/js/main.7d9db694.chunk.js.map",
     "runtime-main.js": "/balance-board-tracker/static/js/runtime-main.101ddc3e.js",
     "runtime-main.js.map": "/balance-board-tracker/static/js/runtime-main.101ddc3e.js.map",
     "static/js/2.b875483c.chunk.js": "/balance-board-tracker/static/js/2.b875483c.chunk.js",
     "static/js/2.b875483c.chunk.js.map": "/balance-board-tracker/static/js/2.b875483c.chunk.js.map",
     "index.html": "/balance-board-tracker/index.html",
-    "precache-manifest.3745ceaa2f1f0710e06837a59c5f9789.js": "/balance-board-tracker/precache-manifest.3745ceaa2f1f0710e06837a59c5f9789.js",
+    "precache-manifest.12d0eddb27c749d44e51921ddc0cf979.js": "/balance-board-tracker/precache-manifest.12d0eddb27c749d44e51921ddc0cf979.js",
     "service-worker.js": "/balance-board-tracker/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/balance-board-tracker/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.b875483c.chunk.js.LICENSE.txt": "/balance-board-tracker/static/js/2.b875483c.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.101ddc3e.js",
     "static/js/2.b875483c.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2bd6fdad.chunk.js"
+    "static/js/main.7d9db694.chunk.js"
   ]
 }
